@@ -1,0 +1,39 @@
+.imagetitle{
+    grid-template-columns: repeat(8, 1fr);
+    margin: 0px;
+}
+.wrapper {
+    padding: 60px 0;
+}
+.i-category {
+    padding: 30px 15px;
+}
+.f-category {
+    border: 1px solid #eee;
+    margin-top: -1px;
+    background: #fff;
+    padding: 15px;
+    text-align: center;
+    overflow: hidden;
+    display: block;
+    margin-right: -1px;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+}
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+.f-category .icon {
+    border-bottom: 10px;
+}
+.f-category .icon i {
+    font-size: 40px;
+}
+a {
+    text-decoration: none !important;
+    /* black color for a tag */
+    /* color: inherit !important; */
+}
