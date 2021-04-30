@@ -73,6 +73,15 @@
             border-bottom-left-radius: 0;
         }
 
+        .box-image {
+            background-color: white;
+            width: 300px;
+            border: 1px solid gray;
+            padding: 50px;
+            margin: auto;
+}
+        }
+
         .form-signin input[type="password"] {
             margin-bottom: 10px;
             border-top-left-radius: 0;
@@ -98,6 +107,13 @@
             <input type="username" id="inputUserName" class="form-control" placeholder="UserName" required autofocus>
             <label for="inputPassword" class="visually-hidden">Password</label>
             <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+            
+            <div class="box-image">
+                <form action="/action_page.php">
+                    <label for="img">Select image:</label>
+                    <input type="file" id="img" name="img" accept="image/*">
+                </form>
+            </div>
             
             <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
             <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
